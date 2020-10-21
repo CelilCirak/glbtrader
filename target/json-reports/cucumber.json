@@ -1,0 +1,912 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "TC01 GlbTrader",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5469000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is go glbtrader page",
+            "match": {
+              "location": "stepdefinitions.GlbTraderStepdefinition.user_is_go_glbtrader_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 51000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user verifies \"Seller Sign in\" is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Seller Sign in\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderStepdefinition.user_verifies_is_present(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user verifies join \"Seller Join Now\" is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Seller Join Now\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderStepdefinition.user_verifies_join_is_present(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user verifies about us \"About Us\" is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"About Us\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderStepdefinition.user_verifies_about_us_is_present(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user verifies that \"Return Policy\" is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Return Policy\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderStepdefinition.user_verifies_that_is_present(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user verifies contact us \"Contact Us\" is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Contact Us\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderStepdefinition.user_verifies_contact_us_is_present(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "uuser verifies package \"Package\" is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Package\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderStepdefinition.uuser_verifies_package_is_present(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 160000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is select \"Furniture\" in dropbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Furniture\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderStepdefinition.user_is_select_in_dropbox(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-20T05:35:45.049Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "TC02 user is go glbtrader page",
+        "description": "",
+        "id": "glbtrader.com-web-page-automation-test;tc02-user-is-go-glbtrader-page",
+        "after": [
+          {
+            "result": {
+              "duration": 711000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 37000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user verifies \"Men Clothing \u0026 Accessories\" under the categories",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Men Clothing \u0026 Accessories\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderStepdefinition.user_verifies_under_the_categories(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 35000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user verifies women \"Women Clothing \u0026 Accessories\" under the categories",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Women Clothing \u0026 Accessories\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderStepdefinition.user_verifies_women_under_the_categories(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user verifies jewelry \"Jewelry \u0026 Accessories\" under the categories",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jewelry \u0026 Accessories\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderStepdefinition.user_verifies_jewelry_under_the_categories(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user verifies cellphone \"Cellphones \u0026 Telecommunications\" under the categories",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cellphones \u0026 Telecommunications\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderStepdefinition.user_verifies_cellphone_under_the_categories(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user verifies computer \"Computer \u0026 Office\" under the categories",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Computer \u0026 Office\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderStepdefinition.user_verifies_computer_under_the_categories(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user verfies consumer \"Consumer Electronics\" under the categories",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Consumer Electronics\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderStepdefinition.user_verfies_consumer_under_the_categories(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 130000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user verifies tops \"Tops \u0026 Tees\" under the men clothing",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Tops \u0026 Tees\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderStepdefinition.user_verifies_tops_under_the_men_clothing(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 109000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user verifies hoodies \"Hoodies \u0026 Sweatshirts\" under the men clothing",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hoodies \u0026 Sweatshirts\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderStepdefinition.user_verifies_hoodies_under_the_men_clothing(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 88000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user verifies jacket \"Jackets \u0026 Coats\" under the men clothing",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jackets \u0026 Coats\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderStepdefinition.user_verifies_jacket_under_the_men_clothing(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 98000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user verifies pants \"Pants\" under the men clothing",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pants\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderStepdefinition.user_verifies_pants_under_the_men_clothing(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 93000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user verifies shirts \"Shirts\" under the men clothing",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Shirts\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderStepdefinition.user_verifies_shirts_under_the_men_clothing(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 113000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user verifies jeans \"Jeans\" under the men clothing",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jeans\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderStepdefinition.user_verifies_jeans_under_the_men_clothing(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 91000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user verifies accessories \"Accessories\" under the men clothing",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Accessories\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderStepdefinition.user_verifies_accessories_under_the_men_clothing(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 107000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user verifies dresses \"Dresses\" under the women clothing",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dresses\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderStepdefinition.user_verifies_dresses_under_the_women_clothing(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 100000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user verifies shirts \"Blouses \u0026 Shirts\" under the women clothing",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Blouses \u0026 Shirts\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderStepdefinition.user_verifies_shirts_under_the_women_clothing(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user verifies hoodies \"Hoodies \u0026 Sweatshirts\" under the women clothing",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hoodies \u0026 Sweatshirts\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderStepdefinition.user_verifies_hoodies_under_the_women_clothing(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 96000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user verifies jumpsuits \"Jumpsuits\" under the women clothing",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jumpsuits\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderStepdefinition.user_verifies_jumpsuits_under_the_women_clothing(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user verifies accessories \"Accessories\" under the women clothing",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Accessories\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderStepdefinition.user_verifies_accessories_under_the_women_clothing(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 101000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user verifies intimates \"Intimates\" under the women clothing",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Intimates\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderStepdefinition.user_verifies_intimates_under_the_women_clothing(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 105000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user verifies earrings \"Earrings\" under the jewelry",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Earrings\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderStepdefinition.user_verifies_earrings_under_the_jewelry(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user verifies wedding \"Wedding \u0026 Engagement Jewelry\" under the jewelry",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Wedding \u0026 Engagement Jewelry\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderStepdefinition.user_verifies_wedding_under_the_jewelry(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 112000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user verifies fine \"Fine Jewelry\" under the jewelry",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fine Jewelry\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderStepdefinition.user_verifies_fine_under_the_jewelry(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 105000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user verifies beads \"Beads \u0026 Jewelry Making\" under the jewelry",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Beads \u0026 Jewelry Making\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderStepdefinition.user_verifies_beads_under_the_jewelry(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 113000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user verifies necklaces \"Necklaces \u0026 Pendants\" under the jewelry",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Necklaces \u0026 Pendants\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderStepdefinition.user_verifies_necklaces_under_the_jewelry(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user verifies rings \"Rings\" under the jewelry",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rings\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderStepdefinition.user_verifies_rings_under_the_jewelry(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 133000000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user verifies bracelets \"Bracelets \u0026 Bangles\" under the jewelry",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bracelets \u0026 Bangles\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderStepdefinition.user_verifies_bracelets_under_the_jewelry(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32000000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "user verifies \"Mobile Phones\" under the cellphones",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mobile Phones\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderStepdefinition.user_verifies_under_the_cellphones(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 113000000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "user verifies bags \"Phone Bags \u0026 Cases\" under the cellphones",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Phone Bags \u0026 Cases\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderStepdefinition.user_verifies_bags_under_the_cellphones(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 118000000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "user verifies mobile \"Mobile Phone Accessories\" under the cellphones",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mobile Phone Accessories\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderStepdefinition.user_verifies_mobile_under_the_cellphones(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 120000000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "user verifies parts \"Mobile Phone Parts\" under the cellphones",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mobile Phone Parts\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderStepdefinition.user_verifies_parts_under_the_cellphones(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31000000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "user verifies power \"Power Bank\" under the cellphones",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Power Bank\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderStepdefinition.user_verifies_power_under_the_cellphones(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 136000000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "user verifies \"Tablets\" under the computer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Tablets\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderStepdefinition.user_verifies_under_the_computer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 125000000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "user verifies office \"Office Electronics\" under the computer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Office Electronics\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderStepdefinition.user_verifies_office_under_the_computer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 127000000,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "user verifies tablet \"Tablet Accessories\" under the computer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Tablet Accessories\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderStepdefinition.user_verifies_tablet_under_the_computer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 121000000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "user verifes storage \"External Storage\" under the computer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"External Storage\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderStepdefinition.user_verifes_storage_under_the_computer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 128000000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "user verifies networking \"Networking\" under the computer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Networking\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderStepdefinition.user_verifies_networking_under_the_computer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 126000000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "user verifies component \"Computer Components\" under the computer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Computer Components\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderStepdefinition.user_verifies_component_under_the_computer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 120000000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "user verifies computer \"Computer Peripherals\" under the computer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Computer Peripherals\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderStepdefinition.user_verifies_computer_under_the_computer(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33000000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "user assert the \"Hot Products\" test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hot Products\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderStepdefinition.user_assert_the_test(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@glbtrader"
+          },
+          {
+            "name": "@glbtradercategories"
+          }
+        ]
+      }
+    ],
+    "name": "Glbtrader.com Web Page Automation Test",
+    "description": "",
+    "id": "glbtrader.com-web-page-automation-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/glbtrader.feature",
+    "tags": [
+      {
+        "name": "@glbtrader",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
